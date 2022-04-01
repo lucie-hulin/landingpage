@@ -1,0 +1,36 @@
+.card {
+  width: 400px; 
+  margin: 0px auto; 
+  background-color: white; 
+  box-shadow: 0px 5px 20px #999;
+  float : right;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  /*grid-column: 1;
+  grid-row :1*/
+}
+.card a { 
+  color: #333; 
+  text-decoration: none;
+}
+.card:hover .card-image img { 
+  width: 140%;
+  filter: grayscale(0);
+}
+
+.button-vert {
+  width: 100%;
+  background-color: #A2CB85;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  box-shadow: 12px 12px 2px 1px grey;
+}
+
+.button-vert {
+ color: white;
+ font-weight: bold;
+}

@@ -1,0 +1,7 @@
+.banner-fixed{
+	height:20vh;
+	background-image: url("../images/emoji.jpeg");
+	margin: 48px 0;
+	background-size: cover;
+	background-attachment: fixed;
+}
